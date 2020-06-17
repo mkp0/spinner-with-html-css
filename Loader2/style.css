@@ -13,24 +13,24 @@ body{
 
 .loader{
     position: relative;
-    width: 10rem;
-    height:10rem;
+    width: 15vw;
+    height:15vw;
     background-color: rgb(108, 110, 240);
     border-radius: 50%;
-    box-shadow: inset 0rem 0rem 2rem black;
+    box-shadow: inset 0vw 0vw 2vw black;
     overflow: hidden;
 }
 
 .loader:before{
     position: absolute;
     content: '';
-    width: 15rem;
-    height: 15rem;
+    width: 19vw;
+    height: 17vw;
     border-radius: 33%;
     background-color: rgb(49, 41, 41);
     animation: temp 5s linear infinite;
-    top: -10rem;
-    left : -3.4rem;
+    top: -10vw;
+    left : -3.4vw;
 }
 
 @keyframes temp{

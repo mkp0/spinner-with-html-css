@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+span{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s linear;
+    display: inline-block;
+}
+
+.fade{
+    opacity: 1;
+    transform: translateY(0px);
+    color: rgb(154, 154, 214);
+}
+
+
+h2{
+    color: rgb(255, 255, 255);
+}
